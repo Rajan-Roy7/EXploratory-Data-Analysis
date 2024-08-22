@@ -21,13 +21,5 @@ def read_data(df):
     return result
 
 
-# df= pd.read_csv("original.csv")
-# cleaned_credit_df = read_data(df)
-# # df.shape
-# # cleaned_credit_df.shape
-# print(df.isna().sum())
-# print("/n -----------------------------------------")
-# print(cleaned_credit_df.isna().sum())
 
-import datacleaner
-print(datacleaner.__version__)
+
